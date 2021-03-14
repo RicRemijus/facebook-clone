@@ -1,0 +1,279 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+/*Styling of Header Section*/
+header {
+  padding: 15px;
+  background-color: #295c95;
+}
+header::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.container {
+  width: 65%;
+  margin: auto;
+  max-width: 1000px;
+}
+.logo-area {
+  float: left;
+  width: 30%;
+  color: #fff;
+  margin-top: 20px;
+}
+.login-area {
+  width: 70%;
+  float: left;
+  color: #fff;
+}
+.login-area form {
+  float: right;
+}
+.login-area label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.login-area a {
+  display: block;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login {
+  float: left;
+  margin-right: 10px;
+}
+.login-area .login {
+  margin-right: 0;
+}
+.login-area input[type="text"],
+.login-area input[type="password"] {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 3px 33px;
+  border-radius: 2px;
+  border: 1px solid #333;
+}
+.login-area a {
+  font-size: 16px;
+  margin-top: 2px;
+  margin-left: 2px;
+  color: #9cb4d8;
+  text-decoration: none;
+}
+.login-area a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.login-area input[type="submit"] {
+  color: #fff;
+  margin-top: 22px;
+  padding: 3px 8px;
+  border: 2px solid #29487d;
+  background-color: #295c95;
+}
+.login-area input[type="submit"] {
+  cursor: pointer;
+}
+
+/*Styling of SIGN UP  section*/
+.signup-area {
+  padding: 20px 0;
+  background: linear-gradient(darkgray, #d4d9e9);
+}
+.signup-area::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.left-area {
+  float: left;
+  width: 48%;
+}
+.left-area p {
+  width: 90%;
+  font-size: 20px;
+  color: #0e385f;
+  font-weight: 600;
+}
+.left-area img {
+  width: 90%;
+}
+.right-area {
+  float: left;
+  width: 52%;
+}
+.right-area h2 {
+  margin: 0;
+  color: #333;
+  font-size: 36px;
+}
+.right-area h4 {
+  margin-top: opx;
+  font-size: 19px;
+  color: #1d2129;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.right-area input[type="text"],
+.right-area input[type="password"] {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 18px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  border: 1px solid #bdc7d8;
+}
+.fullname {
+  overflow: hidden;
+}
+.firstname {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+.surname {
+  width: 48%;
+  float: left;
+}
+.birthday {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.birthday h4 {
+  margin-top: 0;
+  font-size: 19px;
+  color: #1d2129;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.birthdate {
+  float: left;
+  width: 250px;
+  overflow: hidden;
+}
+.birthdate select {
+  float: left;
+  padding: 6px;
+  display: block;
+  border: 1px solid #bdc7d8;
+}
+.birthlink {
+  float: left;
+  width: 150px;
+  margin-right: 250;
+  display: block;
+  font-size: 13px;
+  line-height: 0.8;
+  color: #365899;
+  text-decoration: none;
+}
+.birthlink:hover {
+  text-decoration: underline;
+}
+.gender label {
+  font-size: 20px;
+  font-weight: 400;
+  color: #1d2129;
+}
+.textbox p {
+  width: 80%;
+  color: #777;
+  font-size: 13px;
+}
+.textbox p a {
+  color: #365899;
+  text-decoration: none;
+}
+.textbox p a:hover {
+  text-decoration: underline;
+}
+.btn input[type="submit"] {
+  margin-bottom: 30px;
+}
+.btn input {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  min-width: 194px;
+  border-radius: 5px;
+  padding: 7px 14px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #3b6e22 #2c5115;
+  box-shadow: inset 0 1px 1px #a4e388;
+  background: linear-gradient(#67ae55, #578843);
+}
+.btn input:hover {
+  cursor: pointer;
+  background: linear-gradient(#578843, #67ae55);
+}
+.business {
+  color: #666;
+  font-weight: 600;
+}
+.business a {
+  color: #365899;
+  text-decoration: none;
+}
+.business a:hover {
+  text-decoration: underline;
+}
+
+/**Styling of FOOTER section**/
+.footer-area {
+  padding: 30px 0;
+}
+.footer-area ul {
+  margin: 0;
+  padding: 0;
+}
+.footer-area ul li {
+  display: inline;
+  list-style-type: none;
+}
+.footer-area ul li a {
+  font-size: 14px;
+  color: #365899;
+  text-decoration: none;
+}
+.footer-area ul li:hover a {
+  text-decoration: underline;
+}
+.footer-area ul li:hover :last-child a {
+  text-decoration: underline;
+}
+.footer-area .top-part ul li {
+  margin-right: 8px;
+}
+.footer-area .top-part ul li:last-child {
+  margin-right: 0;
+}
+.footer-area .top-part ul li.active {
+  color: #737373;
+}
+.footer-area .top-part ul li:last-child a {
+  padding: 0 8px;
+  font-weight: 700;
+  margin-right: 8px;
+  border: 1px solid #d4d4d4;
+}
+.footer-area hr {
+  border: 0;
+  border-bottom: 1px solid #d4d4d4;
+}
+.footer-area .middle-part ul li {
+  margin-right: 12px;
+}
+.footer-area .middle-part ul li:last-child {
+  margin-right: 0;
+}
+.footer-area .bottom-area span {
+  font-size: 13px;
+  color: #737373;
+}
