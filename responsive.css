@@ -53,7 +53,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
   .logo-area {
     width: 100%;
   }
@@ -61,7 +61,7 @@
   .logo-area .password,
   .logo-area .login {
     float: none;
-    margin-right: 0;
+    margin-right: 10px;
   }
   .logo-area input[type="text"],
   .logo-area input[type="password"] {
