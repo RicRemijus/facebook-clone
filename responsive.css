@@ -57,6 +57,13 @@
   .logo-area {
     width: 100%;
   }
+
+  .login-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .logo-area .email,
   .logo-area .password,
   .logo-area .login {
